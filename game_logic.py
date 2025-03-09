@@ -62,6 +62,6 @@ def battle(player, wizard):
             break
 
     if wizard.health <= 0:
-        print(f"\nThe wizard {wizard.name} has been defeated by {player.name}!\n\n")
+        print(f"\n{wizard.name} has been defeated by {player.name}!\n\n")
 
     print("\nDone..\nExiting...")
